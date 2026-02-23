@@ -31,20 +31,20 @@ CREATE TABLE Enrollments (
 
 INSERT INTO Teachers (Name, Subject)
 VALUES
-('Mr. Sharukh', 'Computer');
+('Shakeel', 'Self');
 
 
 
 
 INSERT INTO Classes (ClassName, TeacherID)
 VALUES
-('1rd Grade', 4);
+('2rd Grade', 5);
 
 
 
 INSERT INTO Students (Name, Age)
 VALUES
-('Shakeel Ahmed', 20);
+('AQeel', 20);
 
 
 
@@ -53,7 +53,7 @@ VALUES
 INSERT INTO Enrollments (StudentID, ClassID)
 VALUES
 
-(4, 4);
+(5, 5);
 
 
 
@@ -67,4 +67,4 @@ JOIN Teachers t ON c.TeacherID = t.TeacherID;
 
 
 
-select * from Classes;
+select * from Students;
